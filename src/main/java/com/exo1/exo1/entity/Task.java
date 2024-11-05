@@ -25,7 +25,7 @@ public class Task {
     @JoinColumn(name = "projet_id")
     private Projet projet;
 
-    @OneToOne(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    @OneToOne(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     @JoinColumn(name = "users_id")
     private User user;
 }

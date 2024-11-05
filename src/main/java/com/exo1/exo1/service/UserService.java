@@ -7,6 +7,8 @@ import com.exo1.exo1.repository.ProjetRepository;
 import com.exo1.exo1.repository.TaskRepository;
 import com.exo1.exo1.repository.UserRepository;
 import lombok.AllArgsConstructor;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 import org.webjars.NotFoundException;
 
@@ -21,9 +23,12 @@ public class UserService {
     private TaskRepository taskRepository;
     private ProjetRepository projetRepository;
     private UserMapper userMapper;
-    
-    public List<UserDto> findAll() {
-        return userMapper.toDtos(userRepository.findAll());
+
+    public List<UserDto> findAll(int page, int size) {
+        PageRequest pageRequest = PageRequest.of(page, size);
+        Page<User> userPage = userRepository.findAll(pageRequest);
+
+        return userMapper.toDtos(userPage.getContent());
     }
 
     public UserDto findById(long id) {
@@ -33,8 +38,8 @@ public class UserService {
     public UserDto save(UserDto userDto) {
         User user = userMapper.toEntity(userDto);
         user.getProjets().stream().forEach(projet -> {
-                    projet.getTasks().stream().forEach(task -> {task.setProjet(projet);});
-                });
+            projet.getTasks().stream().forEach(task -> {task.setProjet(projet);});
+        });
         return userMapper.toDto(userRepository.save(user));
     }
 
