@@ -4,23 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="60e0fca8-d5a0-4765-94f7-67d80993fd34" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exo1/exo1/controller/ProjetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exo1/exo1/controller/ProjetController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exo1/exo1/controller/TaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exo1/exo1/controller/TaskController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exo1/exo1/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exo1/exo1/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exo1/exo1/entity/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exo1/exo1/entity/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exo1/exo1/mapper/ProjetMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exo1/exo1/mapper/ProjetMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exo1/exo1/repository/ProjetRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exo1/exo1/repository/ProjetRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exo1/exo1/repository/TaskRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exo1/exo1/repository/TaskRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exo1/exo1/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exo1/exo1/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exo1/exo1/service/ProjetService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exo1/exo1/service/ProjetService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exo1/exo1/service/TaskService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exo1/exo1/service/TaskService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exo1/exo1/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exo1/exo1/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-    </list>
+    <list default="true" id="60e0fca8-d5a0-4765-94f7-67d80993fd34" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -167,7 +151,7 @@
       <option name="presentableId" value="Default" />
       <updated>1730710761726</updated>
       <workItem from="1730710762788" duration="5020000" />
-      <workItem from="1730724560721" duration="13287000" />
+      <workItem from="1730724560721" duration="13616000" />
     </task>
     <servers />
   </component>
